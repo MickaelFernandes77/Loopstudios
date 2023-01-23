@@ -1,0 +1,37 @@
+header {
+  height: 500px;
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  nav {
+    padding-top: 5%;
+  }
+
+  #logo {
+    margin: 10px 0 0 30px;
+  }
+
+  .btn-menu{display: none;}
+
+  ul {
+    margin-left: auto;
+  }
+
+  .nav-link {
+    color: $white;
+  }
+
+  #headerBox {
+    border: solid 1px $white;
+    height: 170px;
+    width: 370px;
+    margin-top: 8%;
+
+    h1 {
+      color: $white;
+      text-transform: uppercase;
+      padding: 7px 0 0 10px;
+    }
+  }
+}
