@@ -33,3 +33,78 @@
     }
   }
 }
+
+#titleBtnDiv {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+
+  a > button {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 7px;
+    background-color: $white;
+    border: solid 1px $black;
+    cursor: pointer;
+  }
+}
+
+.cardsDiv {
+  display: flex;
+  height: 570px;
+  margin-top: 0;
+  justify-content: space-between;
+
+  // Animação
+  [data-anime] {
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+
+  [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+  .card {
+    width: 18rem;
+    height: 500px;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-25px);
+      transition: 0.7s;
+    }
+
+    .cardTitle {
+      color: $white;
+      font-size: 38px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: absolute;
+      z-index: 1;
+      margin: 340px 0 0 5%;
+    }
+
+    #cardEarth,
+    #cardNight,
+    #cardSoccer,
+    #cardGrid {
+      position: absolute;
+      z-index: 0;
+    }
+  }
+}

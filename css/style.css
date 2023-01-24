@@ -56,6 +56,61 @@ header {
       margin: 3% 0 0 20%;
       color: #808080; }
 
+#titleBtnDiv {
+  display: flex;
+  justify-content: space-between;
+  height: 60px; }
+  #titleBtnDiv a > button {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 7px;
+    background-color: #fff;
+    border: solid 1px #000;
+    cursor: pointer; }
+
+.cardsDiv {
+  display: flex;
+  height: 570px;
+  margin-top: 0;
+  justify-content: space-between; }
+  .cardsDiv [data-anime] {
+    opacity: 0;
+    transition: 0.3s; }
+  .cardsDiv [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0); }
+  .cardsDiv [data-anime="right"] {
+    transform: translate3d(50px, 0, 0); }
+  .cardsDiv [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px); }
+  .cardsDiv .card {
+    width: 18rem;
+    height: 500px;
+    cursor: pointer; }
+    .cardsDiv .card:hover {
+      transform: translateY(-25px);
+      transition: 0.7s; }
+    .cardsDiv .card .cardTitle {
+      color: #fff;
+      font-size: 38px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: absolute;
+      z-index: 1;
+      margin: 340px 0 0 5%; }
+    .cardsDiv .card #cardEarth,
+    .cardsDiv .card #cardNight,
+    .cardsDiv .card #cardSoccer,
+    .cardsDiv .card #cardGrid {
+      position: absolute;
+      z-index: 0; }
+
 @media (max-width: 375px) {
   header {
     height: 650px;
