@@ -1,0 +1,35 @@
+#imgTextContainer {
+  display: flex;
+  margin-top: 5%;
+  height: 600px;
+
+  #imgDiv {
+    position: absolute;
+    z-index: 0;
+
+    img {
+      width: 700px;
+    }
+  }
+
+  #titleDiv {
+    position: absolute;
+    z-index: 1;
+    width: 620px;
+    height: 400px;
+    background-color: $white;
+    margin: 12% 0 0 36%;
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 45px;
+      font-weight: 300;
+      margin: 10% 0 0 20%;
+    }
+
+    p {
+      margin: 3% 0 0 20%;
+      color: $gray;
+    }
+  }
+}
