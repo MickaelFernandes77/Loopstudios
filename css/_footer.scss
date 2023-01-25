@@ -1,0 +1,46 @@
+footer {
+  background-color: #000;
+  height: 170px;
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+
+    #logoFooter {
+      margin: 35px 0 0 30px;
+    }
+
+    #iconContainer {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 33px;
+
+      a {
+        margin-right: 20px;
+        font-size: 22px;
+        color: $white;
+      }
+    }
+
+    ul {
+      display: flex;
+      margin-top: 50px;
+
+      a {
+        text-decoration: none;
+        margin-right: 30px;
+        color: $white;
+
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+
+    h4{
+        color: $gray;
+        font-size: 17px;
+        margin-top: 45px;
+    }
+  }
+}
