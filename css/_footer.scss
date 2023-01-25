@@ -1,12 +1,13 @@
 footer {
-  background-color: #000;
-  height: 170px;
+  background-color: $black;
+  height: 180px;
 
   .footerContainer {
     display: flex;
     justify-content: space-between;
 
     #logoFooter {
+      width: 200px;
       margin: 35px 0 0 30px;
     }
 
@@ -24,7 +25,7 @@ footer {
 
     ul {
       display: flex;
-      margin-top: 50px;
+      margin-top: 45px;
 
       a {
         text-decoration: none;
@@ -37,10 +38,10 @@ footer {
       }
     }
 
-    h4{
-        color: $gray;
-        font-size: 17px;
-        margin-top: 45px;
+    h4 {
+      color: $gray;
+      font-size: 17px;
+      margin-top: 45px;
     }
   }
 }

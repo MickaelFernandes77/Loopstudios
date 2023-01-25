@@ -117,11 +117,12 @@ header {
 
 footer {
   background-color: #000;
-  height: 170px; }
+  height: 180px; }
   footer .footerContainer {
     display: flex;
     justify-content: space-between; }
     footer .footerContainer #logoFooter {
+      width: 200px;
       margin: 35px 0 0 30px; }
     footer .footerContainer #iconContainer {
       display: flex;
@@ -133,7 +134,7 @@ footer {
         color: #fff; }
     footer .footerContainer ul {
       display: flex;
-      margin-top: 50px; }
+      margin-top: 45px; }
       footer .footerContainer ul a {
         text-decoration: none;
         margin-right: 30px;
@@ -246,7 +247,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 10%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 375px) and (max-width: 425px) {
   header {
     height: 650px;
@@ -346,7 +373,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 40%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 425px) and (max-width: 486px) {
   header {
     height: 650px;
@@ -446,7 +499,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 10%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 486px) and (max-width: 550px) {
   header {
     height: 650px;
@@ -546,7 +625,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 10%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 550px) and (max-width: 576px) {
   header {
     height: 650px;
@@ -647,7 +752,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 25%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   header {
     height: 650px;
@@ -745,7 +876,33 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    height: 380px;
+    margin-top: 20%; }
+    footer .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footerContainer #logoFooter {
+        margin: 35px 0 0 0; }
+      footer .footerContainer #iconContainer {
+        margin-top: 33px; }
+        footer .footerContainer #iconContainer a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #fff; }
+      footer .footerContainer ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px; }
+        footer .footerContainer ul a {
+          margin-right: 35px;
+          text-align: center; }
+      footer .footerContainer h4 {
+        text-align: center; } }
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   #imgTextContainer {
     display: flex;
@@ -812,7 +969,10 @@ footer {
       #titleCardDiv .cardsDiv #cardBoreails,
       #titleCardDiv .cardsDiv #cardCuriosity,
       #titleCardDiv .cardsDiv #cardFisheye {
-        background-size: cover; } }
+        background-size: cover; }
+
+  footer {
+    margin-top: 20%; } }
 @media (min-width: 991.98px) and (max-width: 1200px) {
   #imgTextContainer {
     display: flex;

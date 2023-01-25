@@ -159,6 +159,47 @@
       }
     }
   }
+
+  footer {
+    height: 380px;
+    margin-top: 10%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
+      }
+    }
+  }
 }
 
 @media (min-width: 375px) and (max-width: 425px) {
@@ -319,6 +360,47 @@
       }
     }
   }
+
+  footer {
+    height: 380px;
+    margin-top: 40%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
+      }
+    }
+  }
 }
 
 @media (min-width: 425px) and (max-width: 486px) {
@@ -475,6 +557,47 @@
       #cardCuriosity,
       #cardFisheye {
         background-size: cover;
+      }
+    }
+  }
+
+  footer {
+    height: 380px;
+    margin-top: 10%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
       }
     }
   }
@@ -638,6 +761,47 @@
       }
     }
   }
+
+  footer {
+    height: 380px;
+    margin-top: 10%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
+      }
+    }
+  }
 }
 
 @media (min-width: 550px) and (max-width: 576px) {
@@ -795,6 +959,47 @@
       #cardCuriosity,
       #cardFisheye {
         background-size: cover;
+      }
+    }
+  }
+
+  footer {
+    height: 380px;
+    margin-top: 25%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
       }
     }
   }
@@ -957,6 +1162,47 @@
       }
     }
   }
+
+  footer {
+    height: 380px;
+    margin-top: 20%;
+
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #logoFooter {
+        margin: 35px 0 0 0;
+      }
+
+      #iconContainer {
+        margin-top: 33px;
+
+        a {
+          margin-left: 10px;
+          font-size: 18px;
+          color: $white;
+        }
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        a {
+          margin-right: 35px;
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-align: center;
+      }
+    }
+  }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -1066,6 +1312,11 @@
         background-size: cover;
       }
     }
+  }
+
+  // footer
+  footer{
+    margin-top: 20%;
   }
 }
 
