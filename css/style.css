@@ -107,7 +107,11 @@ header {
     .cardsDiv .card #cardEarth,
     .cardsDiv .card #cardNight,
     .cardsDiv .card #cardSoccer,
-    .cardsDiv .card #cardGrid {
+    .cardsDiv .card #cardGrid,
+    .cardsDiv .card #cardAbove,
+    .cardsDiv .card #cardBoreails,
+    .cardsDiv .card #cardCuriosity,
+    .cardsDiv .card #cardFisheye {
       position: absolute;
       z-index: 0; }
 
@@ -165,7 +169,54 @@ header {
       #imgTextContainer #titleDiv p {
         text-align: center;
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 375px) and (max-width: 425px) {
   header {
     height: 650px;
@@ -218,7 +269,54 @@ header {
       #imgTextContainer #titleDiv p {
         text-align: center;
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1070px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 425px) and (max-width: 486px) {
   header {
     height: 650px;
@@ -271,7 +369,54 @@ header {
       #imgTextContainer #titleDiv p {
         text-align: center;
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 486px) and (max-width: 550px) {
   header {
     height: 650px;
@@ -324,7 +469,54 @@ header {
       #imgTextContainer #titleDiv p {
         text-align: center;
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1170px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 550px) and (max-width: 576px) {
   header {
     height: 650px;
@@ -377,7 +569,55 @@ header {
       #imgTextContainer #titleDiv p {
         text-align: center;
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%;
+    margin-top: 40%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   header {
     height: 650px;
@@ -428,7 +668,54 @@ header {
         margin: 10% 0 0 2%; }
       #imgTextContainer #titleDiv p {
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   #imgTextContainer {
     display: flex;
@@ -448,7 +735,54 @@ header {
         margin: 10% 0 0 2%; }
       #imgTextContainer #titleDiv p {
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%; }
+    #titleCardDiv .cardsDiv {
+      display: flex;
+      flex-direction: column; }
+      #titleCardDiv .cardsDiv .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static; }
+        #titleCardDiv .cardsDiv .card:hover {
+          transform: none; }
+        #titleCardDiv .cardsDiv .card .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%; }
+        #titleCardDiv .cardsDiv .card img {
+          display: none; }
+      #titleCardDiv .cardsDiv #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg"); }
+      #titleCardDiv .cardsDiv #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg"); }
+      #titleCardDiv .cardsDiv #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg"); }
+      #titleCardDiv .cardsDiv #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg"); }
+      #titleCardDiv .cardsDiv #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg"); }
+      #titleCardDiv .cardsDiv #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg"); }
+      #titleCardDiv .cardsDiv #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg"); }
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg"); }
+      #titleCardDiv .cardsDiv #cardEarth,
+      #titleCardDiv .cardsDiv #cardNight,
+      #titleCardDiv .cardsDiv #cardSoccer,
+      #titleCardDiv .cardsDiv #cardGrid,
+      #titleCardDiv .cardsDiv #cardAbove,
+      #titleCardDiv .cardsDiv #cardBoreails,
+      #titleCardDiv .cardsDiv #cardCuriosity,
+      #titleCardDiv .cardsDiv #cardFisheye {
+        background-size: cover; } }
 @media (min-width: 991.98px) and (max-width: 1200px) {
   #imgTextContainer {
     display: flex;
@@ -468,7 +802,17 @@ header {
         margin: 10% 0 0 2%; }
       #imgTextContainer #titleDiv p {
         margin: 3% 0 0 3%;
-        color: #808080; } }
+        color: #808080; }
+
+  .cardsDiv {
+    height: 480px; }
+    .cardsDiv .card {
+      height: 400px; }
+      .cardsDiv .card:hover {
+        transform: translateY(-12px); }
+      .cardsDiv .card .cardTitle {
+        font-size: 25px;
+        margin: 295px 0 0 5%; } }
 @media (min-width: 1200px) and (max-width: 1439px) {
   #imgTextContainer {
     display: flex;
@@ -479,6 +823,16 @@ header {
     #imgTextContainer #titleDiv {
       width: 550px;
       background-color: #fff;
-      margin: 12% 0 0 41%; } }
+      margin: 12% 0 0 41%; }
+
+  .cardsDiv {
+    height: 570px; }
+    .cardsDiv .card {
+      height: 480px; }
+      .cardsDiv .card:hover {
+        transform: translateY(-13px); }
+      .cardsDiv .card .cardTitle {
+        font-size: 32px;
+        margin: 335px 0 0 5%; } }
 
 /*# sourceMappingURL=style.css.map */

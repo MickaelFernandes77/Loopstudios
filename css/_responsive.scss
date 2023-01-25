@@ -83,6 +83,82 @@
       }
     }
   }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
+      }
+    }
+  }
 }
 
 @media (min-width: 375px) and (max-width: 425px) {
@@ -167,6 +243,82 @@
       }
     }
   }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1070px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
+      }
+    }
+  }
 }
 
 @media (min-width: 425px) and (max-width: 486px) {
@@ -247,6 +399,82 @@
         text-align: center;
         margin: 3% 0 0 3%;
         color: $gray;
+      }
+    }
+  }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
       }
     }
   }
@@ -334,6 +562,82 @@
       }
     }
   }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1170px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
+      }
+    }
+  }
 }
 
 @media (min-width: 550px) and (max-width: 576px) {
@@ -414,6 +718,83 @@
         text-align: center;
         margin: 3% 0 0 3%;
         color: $gray;
+      }
+    }
+  }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%;
+    margin-top: 40%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
       }
     }
   }
@@ -500,6 +881,82 @@
       }
     }
   }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
+      }
+    }
+  }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -531,6 +988,82 @@
       p {
         margin: 3% 0 0 3%;
         color: $gray;
+      }
+    }
+  }
+
+  // Main: sec2
+  #titleCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%;
+
+    .cardsDiv {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-top: 4%;
+        position: static;
+        &:hover {
+          transform: none;
+        }
+
+        .cardTitle {
+          font-size: 17px;
+          font-weight: bold;
+          position: static;
+          margin: 75px 0 0 5%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      #cardEarth {
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+      }
+
+      #cardNight {
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+      }
+
+      #cardSoccer {
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+      }
+
+      #cardGrid {
+        background-image: url("../images/mobile/image-grid.jpg");
+      }
+
+      #cardAbove {
+        background-image: url("../images/mobile/image-from-above.jpg");
+      }
+
+      #cardBoreails {
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+      }
+
+      #cardCuriosity {
+        background-image: url("../images/mobile/image-curiosity.jpg");
+      }
+
+      #cardFisheye {
+        background-image: url("../images/mobile/image-fisheye.jpg");
+      }
+
+      #cardEarth,
+      #cardNight,
+      #cardSoccer,
+      #cardGrid,
+      #cardAbove,
+      #cardBoreails,
+      #cardCuriosity,
+      #cardFisheye {
+        background-size: cover;
       }
     }
   }
@@ -568,6 +1101,22 @@
       }
     }
   }
+
+  // Main: sec 2
+  .cardsDiv {
+    height: 480px;
+    .card {
+      height: 400px;
+      &:hover {
+        transform: translateY(-12px);
+      }
+
+      .cardTitle {
+        font-size: 25px;
+        margin: 295px 0 0 5%;
+      }
+    }
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px) {
@@ -587,6 +1136,22 @@
       width: 550px;
       background-color: $white;
       margin: 12% 0 0 41%;
+    }
+  }
+
+  // Main: sec 2
+  .cardsDiv {
+    height: 570px;
+    .card {
+      height: 480px;
+      &:hover {
+        transform: translateY(-13px);
+      }
+
+      .cardTitle {
+        font-size: 32px;
+        margin: 335px 0 0 5%;
+      }
     }
   }
 }
